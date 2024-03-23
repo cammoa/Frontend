@@ -1,15 +1,117 @@
-.head{
-    background-image: url('/images/임시상단부.jpeg');
-    background-size: cover;
-    height: 200px; /* 배경 이미지의 높이 설정 */
-    text-align: center; /* 텍스트를 가운데 정렬 */
-    color: white; /* 텍스트 색상을 흰색으로 설정 */
-    padding: 20px; /* 헤더 내부 여백 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    *{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+     
+    
 }
-  
+.logo {
 
+}
 
+.backgraound{
+    position: fixed;
+    top : 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    width: 100%;
+    height: 688px;
+    z-index: -1;
+    /*상단 배경화면*/
+}
+ 
 
+.hcontainer{
+    margin-top : 288px;
+    position: fixed;
+    top : 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: silver;
+    width: 1080px;
+    height: 289px;
+    z-index: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*상단 대표 박스 */
+}
 
+.mainbox {
+    border-top: 45px;
+    position: fixed;
+    top : 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    
+    width: 958.5px;
+    height: 109px;
+    z-index: 1
+    /*상단 검색 박스*/
 
+}
+.span {
+    border-radius: 15px;
+    /* 버튼 전체 radius 주기*/
+}
 
+.serchButton{
+   
+    left : 61px;
+    position: absolute;
+    margin-left: 61px;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+
+    }
+
+.dateButton {
+    right: 59px;
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+}
+
+.serchButton .dateButton {
+    margin-left: 10px
+}
+
+.adressButton {
+    
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+}
+
+.checkButton{
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+}
+
+.roomStyle{
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+}
+
+.manCount{
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    background-color: red;
+    z-index: 1
+}
